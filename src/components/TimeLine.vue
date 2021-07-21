@@ -12,6 +12,12 @@
       :color="moment.color"
       animation
     >
+
+      <div class="link" v-if="moment.link">
+        <a :href="moment.link" target="_blank">
+          Acessar conteúdo
+        </a>
+      </div>
       <div class="tag-wrapper">
         <span
           class="tag"
@@ -45,7 +51,7 @@ export default {
           }
         });
       });
-      console.log(`${tagClicked} aparece em ${counter} anos`);
+      alert(`${tagClicked} aparece em ${counter} três momentos`);
     },
   },
 };
