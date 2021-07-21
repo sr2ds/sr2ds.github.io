@@ -3,7 +3,7 @@
     <vue-timeline-update
       v-for="(moment, index) in moments"
       :key="index"
-      :date="moment.date"
+      :date="new Date(moment.date)"
       :title="moment.title"
       :description="moment.description"
       :thumbnail="moment.thumbnail"
