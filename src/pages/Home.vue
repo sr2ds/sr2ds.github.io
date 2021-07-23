@@ -69,6 +69,28 @@ export default {
       notes: [
         {
           icon: "link",
+          category: "GitHub",
+          color: "blue",
+          title: "WebAssembly vai dominar o mundo?",
+          description:
+            "Dei um brincada com WASM e Rust, nos meus testes as execuções são muito mais performáticas em Web Assembly do que em JS puro, vejo com bons olhos. E com Rust não é tão complicado o start, qualquer hora vou criar oportunidades para me desenvolver neste aspecto. Se você quiser acompanhar o que fiz, segue o repo:",
+          link: "https://github.com/sr2ds/hello-world-rust-webassembly",
+          date: "2021-03",
+        },
+        {
+          icon: "link",
+          category: "GitHub",
+          color: "blue",
+          description:
+            "Quando eu comecei a estudar PHP, aprendi com a mão na massa, tentando e lendo na medida que precisava, o mesmo aconteceu com JavaScript. O dia-a-dia me deu alguns poderes e só fui ler de verdade a documentação ou fazer algum curso bem depois, quando já usava no dia-a-dia e tinha alguma experiência. Agora eu resolvi fazer diferente com Rust, comecei lendo a documentação e um livro, praticando com pequenos passos e sem pressa, até retomei a base de algorítimos para reforçar o que eu já sei. A experiência foi e tem sido legal, eu documentei toda a leitura de um livro no meu github, confere lá! ",
+          title: "Comecei a documentar meus estudos de Rust Lang",
+          date: "2021-02",
+          thumbnail:
+            "https://raw.githubusercontent.com/sr2ds/learning-rust/master/assets/rust-language-logo.jpg",
+          link: "https://github.com/sr2ds/learning-rust",
+        },
+        {
+          icon: "link",
           category: "Blog",
           color: "white",
           title: "Bloquear Tráfego Por IP - X-Forwarded-For Apache 2.4",
