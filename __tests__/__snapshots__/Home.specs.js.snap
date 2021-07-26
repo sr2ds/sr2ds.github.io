@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pagina Home garante que header esteja como no snapshot 1`] = `
+<div class="Header">
+  <router-link-stub to="/" tag="a" ariacurrentvalue="page" event="click" class="backIcon">Voltar</router-link-stub>
+  <h1 class="">David Silva</h1> <a href="https://www.linkedin.com/in/srdavidsilva/" target="_blank" class="linkedinIcon"><img src="@/assets/linkedin.png" alt="logo linkedin" title="Perfil LinkedIn"></a>
+</div>
+`;
